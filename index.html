@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="/index.css" />
+
+<body>
+  <div style="position: fixed; color: aliceblue; font-size: 20px">
+    <span> Score: </span>
+    <span id="score"> 0</span>
+  </div>
+
+  <div
+    id="menu"
+    style="position: fixed; left: 20%; top: 20%; background-color: white"
+  >
+    <div
+      style="
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        width: 400px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+      "
+    >
+      <h1 id="points">0</h1>
+      <p>POINTS</p>
+      <div>
+        <button id="startGameBtn">Start Game</button>
+      </div>
+    </div>
+  </div>
+  <canvas></canvas>
+
+  <script src="index.js"></script>
+</body>
